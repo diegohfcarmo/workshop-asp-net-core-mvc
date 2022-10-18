@@ -56,7 +56,7 @@ namespace SalesWebMvc
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Home}/{action=Index}/{id?}"); // id é um atributo opcional, por isso o ponto de interrogação.
             });
         }
     }
